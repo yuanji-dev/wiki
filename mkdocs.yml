@@ -3,7 +3,11 @@ nav:
   - Home: index.md
   - Setup:
       - Android: setup/android.md
-  - Selfhosted: selfhosted/index.md
+  - Selfhosted:
+      - selfhosted/providers.md
+      - selfhosted/installation.md
+      - selfhosted/services.md
+      - selfhosted/wireguard.md
   - Engineering: engineering/index.md
   - Blog: https://blog.gimo.me
 theme:
@@ -29,3 +33,8 @@ theme:
 markdown_extensions:
   - mdx_truly_sane_lists:
       nested_indent: 2
+  - pymdownx.caret
+  - pymdownx.mark
+  - pymdownx.tilde
+  - pymdownx.tasklist:
+      custom_checkbox: true
