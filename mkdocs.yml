@@ -4,6 +4,7 @@ nav:
   - Setup:
       - setup/archlinux.md
       - setup/android.md
+      - setup/neovim.md
   - Selfhosted:
       - selfhosted/providers.md
       - selfhosted/installation.md
