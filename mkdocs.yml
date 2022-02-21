@@ -30,10 +30,10 @@ theme:
     - content.code.annotate
     # - content.tabs.link
     # - header.autohide
-    - navigation.expand
     - navigation.indexes
     - navigation.instant
-    - navigation.sections
+    #- navigation.sections
+    - navigation.expand
     #- navigation.tabs
     #- navigation.tabs.sticky
     - navigation.top
