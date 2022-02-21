@@ -1,24 +1,24 @@
 site_name: Yuanji's Wiki
 nav:
-  - Home: index.md
-  - Setup:
-      - setup/archlinux.md
-      - setup/android.md
-      - setup/neovim.md
-  - Selfhosted:
-      - selfhosted/providers.md
-      - selfhosted/installation.md
-      - selfhosted/code-server.md
-      - selfhosted/postgresql.md
-      - selfhosted/acme.sh.md
-      - selfhosted/services.md
-      - selfhosted/wireguard.md
-  - Engineering:
-      - engineering/index.md
-      - engineering/ansible.md
-      - engineering/python.md
-      - engineering/jenkins.md
-      - engineering/frontend.md
+  - Introduction: index.md
+  - Coding:
+      - coding/index.md
+      - coding/python.md
+      - coding/frontend.md
+      - coding/neovim.md
+  - DevOps:
+      - devops/ansible.md
+      - devops/jenkins.md
+  - Sysadmin:
+      - sysadmin/archlinux.md
+      - sysadmin/android.md
+      - sysadmin/providers.md
+      - sysadmin/installation.md
+      - sysadmin/code-server.md
+      - sysadmin/postgresql.md
+      - sysadmin/acme.sh.md
+      - sysadmin/services.md
+      - sysadmin/wireguard.md
   - Life:
       - life/camera.md
       - life/recipe.md
