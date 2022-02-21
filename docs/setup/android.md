@@ -2,6 +2,14 @@
 
 ## Devices
 
+- Xiaomi Redmi K40
+
+  - [MIUI 13 - MIUI 13 STABLE RELEASE | Xiaomi European Community | MIUI ROM Since 2010](https://xiaomi.eu/community/threads/miui-13-stable-release.64441/)
+  - [LineageOS Downloads](https://download.lineageos.org/alioth)
+  - Enable VoLTE: `*＃*＃86583＃*＃*`
+
+<s>
+
 - Sony Xperia XZ2 Compact Dual H8324
   - [Install LineageOS on xz2c | LineageOS Wiki](https://wiki.lineageos.org/devices/xz2c/install)
   - [LineageOS/android_device_sony_xz2c](https://github.com/LineageOS/android_device_sony_xz2c)
@@ -10,12 +18,9 @@
   - [Install PixelExperience on picasso - PixelExperience Wiki](https://wiki.pixelexperience.org/devices/picasso/install/)
   - [PixelExperience-Devices/device_xiaomi_picasso](https://github.com/PixelExperience-Devices/device_xiaomi_picasso)
   - [vendor_xiaomi_picasso](https://gitlab.pixelexperience.org/android/vendor-blobs/vendor_xiaomi_picasso)
+  - [tigr: trCamera_Born_To_Shot.apk](https://www.celsoazevedo.com/files/android/google-camera/f/changelog1481/)
 
-## ROMs & Recoveries
-
-- [PixelExperience](https://download.pixelexperience.org/)
-- [LineageOS](https://download.lineageos.org/)
-- [OrangeFox Recovery](https://orangefox.download/)
+</s>
 
 ## Apps
 
@@ -33,10 +38,7 @@
 ### Rakuten
 
 - [x] 楽天銀行
-  - セキュリティカード
-- [x] 楽天ペイ
-  - 3 桁
-  - 個人認証
+- [x] 楽天ペイ (3 桁 & 個人認証 Needed)
 - [x] 楽天カード
 - [x] my 楽天モバイル
 - [x] Link
@@ -57,8 +59,7 @@
 - [x] Okta Verify
 - [x] Slack
 - [x] Viber
-- [x] PagerDuty
-      rakpd
+- [x] PagerDuty (rakpd)
 
 ### Others
 
@@ -67,16 +68,15 @@
 - [x] Swarm
 - [x] Twitter
 - [x] Notion
-- [x] FairEmail
-- [x] WireGuard
+- [x] FairEmail (Export & Import Needed)
+- [x] WireGuard (Export & Import Needed)
 - [x] PayPal
 - [x] O'Reilly
 - [x] 新型コロナウイルス　接触確認アプリ
 - [x] Reddit
 - [x] Poweramp
 - [x] Y !ファイナンス
-- [tigr: trCamera_Born_To_Shot.apk](https://www.celsoazevedo.com/files/android/google-camera/f/changelog1481/)
 
 ## Backup
 
-- https://github.com/machiav3lli/oandbackupx
+- [machiav3lli/oandbackupx: backup manager for android](https://github.com/machiav3lli/oandbackupx)
