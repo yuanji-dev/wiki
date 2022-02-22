@@ -70,6 +70,26 @@
     !!! quote "quote, cite"
     ```
 
+### Table
+
+===! "Table"
+
+    | Method      | Description                          |
+    | :---------- | :----------------------------------- |
+    | `GET`       | :material-check:     Fetch resource  |
+    | `PUT`       | :material-check-all: Update resource |
+    | `DELETE`    | :material-close:     Delete resource |
+
+=== "Markdown"
+
+    ```
+    | Method      | Description                          |
+    | :---------- | :----------------------------------- |
+    | `GET`       | :material-check:     Fetch resource  |
+    | `PUT`       | :material-check-all: Update resource |
+    | `DELETE`    | :material-close:     Delete resource |
+    ```
+
 ### Keyboard
 
 ===! "Keyboard"
@@ -86,14 +106,14 @@
 
 ===! "External file"
 
-    ```yaml title="mkdocs.yml"
+    ```yaml title="mkdocs.yml" linenums="1"
     --8<-- "mkdocs.yml"
     ```
 
 === "Markdown"
 
     ````
-    ```yaml title="mkdocs.yml"
+    ```yaml title="mkdocs.yml" linenums="1"
     --8<--​ "mkdocs.yml"
     ```
     ````
@@ -106,15 +126,54 @@
     - ^^This was inserted^^
     - ~~This was deleted~~
     - :smile: :material-github: Search Icons: [Icons + Emojis - Material for MkDocs](https://squidfunk.github.io/mkdocs-material/reference/icons-emojis/)
+    - The `#!python range()` function is used to generate a sequence of numbers.
+    - Line numbers & highlighting
+    ```py linenums="1" hl_lines="2 3"
+    def bubble_sort(items):
+        for i in range(len(items)):
+            for j in range(len(items) - 1 - i):
+                if items[j] > items[j + 1]:
+                    items[j], items[j + 1] = items[j + 1], items[j]
+    ```
+    - Code annotation
+
+        ```yaml
+        theme:
+          features:
+            - content.code.annotate #(1)
+        ```
+
+        1. :man_raising_hand: I'm a code annotation! I can contain `code`, **formatted
+           text**, images, ... basically anything that can be written in Markdown.
 
 === "Markdown"
 
-    ```
+    ````
     - ==This was marked==
     - ^^This was inserted^^
     - ~~This was deleted~~
     - :smile: :material-github: Search Icons: [Icons + Emojis - Material for MkDocs](https://squidfunk.github.io/mkdocs-material/reference/icons-emojis/)
+    - The `#!python range()` function is used to generate a sequence of numbers.
+    - Line numbers & highlighting
+    ```py linenums="1" hl_lines="2 3"
+    def bubble_sort(items):
+        for i in range(len(items)):
+            for j in range(len(items) - 1 - i):
+                if items[j] > items[j + 1]:
+                    items[j], items[j + 1] = items[j + 1], items[j]
     ```
+
+    - Code annotation
+
+        ```yaml
+        theme:
+          features:
+            - content.code.annotate #(1)
+        ```
+
+        1. :man_raising_hand: I'm a code annotation! I can contain `code`, **formatted
+           text**, images, ... basically anything that can be written in Markdown.
+    ````
 
 ## Links
 
