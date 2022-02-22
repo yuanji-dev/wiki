@@ -6,11 +6,16 @@ nav:
   - Coding:
       - coding/git.md
       - coding/markdown.md
+      - coding/bash.md
+      - coding/go.md
       - coding/python.md
+      - coding/database.md
       - coding/frontend.md
       - coding/vim.md
   - DevOps:
       - devops/ansible.md
+      - devops/ssh.md
+      - devops/docker.md
       - devops/jenkins.md
   - Sysadmin:
       - sysadmin/archlinux.md
