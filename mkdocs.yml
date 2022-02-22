@@ -1,11 +1,14 @@
 site_name: Yuanji's Wiki
+repo_url: https://github.com/masakichi/wiki
+edit_uri: edit/main/docs/
 nav:
   - Introduction: index.md
   - Coding:
-      - coding/index.md
+      - coding/git.md
+      - coding/markdown.md
       - coding/python.md
       - coding/frontend.md
-      - coding/neovim.md
+      - coding/vim.md
   - DevOps:
       - devops/ansible.md
       - devops/jenkins.md
@@ -19,11 +22,15 @@ nav:
       - sysadmin/acme.sh.md
       - sysadmin/services.md
       - sysadmin/wireguard.md
+  - Toolkit: toolkit.md
   - Life:
       - life/camera.md
       - life/recipe.md
   - Blog: https://blog.gimo.me
 theme:
+  font:
+    text: Cantarell
+    code: Inconsolata
   name: material
   #custom_dir: overrides
   features:
@@ -44,8 +51,8 @@ theme:
     # - toc.integrate
   palette:
     - scheme: default
-      primary: indigo
-      accent: indigo
+      primary: green
+      accent: green
       toggle:
         icon: material/toggle-switch-off-outline
         name: Switch to dark mode
