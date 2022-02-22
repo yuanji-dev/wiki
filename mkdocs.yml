@@ -1,4 +1,5 @@
 site_name: Yuanji's Wiki
+copyright: Copyright © 2022 Yuanji All Rights Resarved.
 repo_url: https://github.com/masakichi/wiki
 edit_uri: edit/main/docs/
 nav:
@@ -32,6 +33,18 @@ nav:
       - life/camera.md
       - life/recipe.md
   - Blog: https://blog.gimo.me
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/masakichi
+    - icon: fontawesome/brands/twitter
+      link: https://twitter.com/gimo_me
+    - icon: fontawesome/solid/blog
+      link: https://blog.gimo.me
+    - icon: fontawesome/brands/telegram
+      link: https://t.me/yuanji
+    - icon: material/gmail
+      link: mailto:self@gimo.me
 theme:
   font:
     text: Cantarell
@@ -59,17 +72,29 @@ theme:
       primary: green
       accent: green
       toggle:
-        icon: material/toggle-switch-off-outline
+        icon: material/weather-sunny
         name: Switch to dark mode
     - scheme: slate
-      primary: red
-      accent: red
+      primary: pink
+      accent: pink
       toggle:
-        icon: material/toggle-switch
+        icon: material/weather-night
         name: Switch to light mode
 markdown_extensions:
   - mdx_truly_sane_lists:
       nested_indent: 2
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+  - abbr
+  - admonition
+  - meta
+  - pymdownx.details
+  - pymdownx.betterem
   - pymdownx.caret
   - pymdownx.mark
   - pymdownx.tilde
@@ -78,5 +103,4 @@ markdown_extensions:
   - pymdownx.superfences
   - pymdownx.snippets
   - pymdownx.magiclink
-  - pymdownx.tasklist:
-      custom_checkbox: true
+  - pymdownx.keys
