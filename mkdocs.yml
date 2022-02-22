@@ -5,8 +5,8 @@ edit_uri: edit/main/docs/
 nav:
   - Introduction: index.md
   - Coding:
-      - coding/git.md
       - coding/markdown.md
+      - coding/git.md
       - coding/bash.md
       - coding/go.md
       - coding/python.md
@@ -83,6 +83,8 @@ theme:
 markdown_extensions:
   - mdx_truly_sane_lists:
       nested_indent: 2
+  - toc:
+      permalink: true
   - pymdownx.tasklist:
       custom_checkbox: true
   - pymdownx.tabbed:
@@ -90,11 +92,12 @@ markdown_extensions:
   - pymdownx.emoji:
       emoji_index: !!python/name:materialx.emoji.twemoji
       emoji_generator: !!python/name:materialx.emoji.to_svg
+  - pymdownx.betterem:
+      smart_enable: all
   - abbr
   - admonition
   - meta
   - pymdownx.details
-  - pymdownx.betterem
   - pymdownx.caret
   - pymdownx.mark
   - pymdownx.tilde
