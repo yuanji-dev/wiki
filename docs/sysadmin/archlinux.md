@@ -7,7 +7,7 @@
 
 ## GRUB
 
-```
+```ini title="/etc/default/grub"
 GRUB_CMDLINE_LINUX_DEFAULT="loglevel=3 quiet cryptdevice=/dev/nvme0n1p2:cryptroot root=/dev/mapper/cryptroot"
 ```
 

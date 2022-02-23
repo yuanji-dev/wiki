@@ -11,11 +11,16 @@
 ## Domains
 
 - [Namecheap](https://www.namecheap.com/)
-
-## DNS
-
 - [Cloudflare](https://www.cloudflare.com/)
 
 ## Email
 
 - [Private Email](https://privateemail.com/)
+
+## Backup
+
+- [BorgBase - Secure hosting for your BorgBackup Repositories](https://www.borgbase.com/)
+
+## Hosting
+
+- [PikaPods - Simplified Open Source App Hosting](https://www.pikapods.com/)
