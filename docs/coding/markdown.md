@@ -206,17 +206,29 @@
 ## Issues
 
 - Nested list: [Incorrect rendering of nested lists · Issue #545 · mkdocs/mkdocs](https://github.com/mkdocs/mkdocs/issues/545)
-  - currently i'm using prettier to format markdown and it uses 2 spaces for nested lists, so that i have to install `mdx_truly_sane_lists` extension to bypass this issue.
-- Grammar & spell checker are not setup in my current Vim settings.
+  - I'm using prettier to format Markdown and it uses 2 spaces for nested lists, so that i have to install `mdx_truly_sane_lists` extension to bypass this issue
 
 ## Linters
 
+I'm using [textlint](https://github.com/textlint/textlint) along with some rules to lint Markdown files. Below is my configurations.
+
+```json title=".textlintrc.json"
+--8<-- ".textlintrc.json"
+```
+
+Other linters:
+
 - [Linting Markdown And Documentation - Earthly Blog](https://earthly.dev/blog/markdown-lint/)
+- [DavidAnson/markdownlint: A Node.js style checker and lint tool for Markdown/CommonMark files.](https://github.com/DavidAnson/markdownlint)
+- [btford/write-good: Naive linter for English prose](https://github.com/btford/write-good)
+- [amperser/proselint: A linter for prose.](https://github.com/amperser/proselint)
+- [errata-ai/vale: A syntax-aware linter for prose built with speed and extensibility in mind.](https://github.com/errata-ai/vale)
+- [textlint/textlint: The pluggable natural language linter for text and markdown.](https://github.com/textlint/textlint)
 
 ## Links
 
 - GitHub supported languages: [linguist/README.md at master · github/linguist](https://github.com/github/linguist/blob/master/vendor/README.md)
-- GFM: [Basic writing and formatting syntax - GitHub Docs](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
+- GitHub Flavored Markdown(GFM): [Basic writing and formatting syntax - GitHub Docs](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
 - [mermaid-js/mermaid: Generation of diagram and flowchart from text in a similar manner as markdown](https://github.com/mermaid-js/mermaid)
 - [Syntax Highlighting | Hugo](https://gohugo.io/content-management/syntax-highlighting/#list-of-chroma-highlighting-languages)
 - [Rentry.co - Markdown Pastebin](https://rentry.co/)

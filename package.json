@@ -1,0 +1,35 @@
+{
+  "name": "wiki",
+  "version": "1.0.0",
+  "description": "This is my personal wiki where I share what I know. It is powered by [MkDocs](https://www.mkdocs.org/) with [Material theme](https://squidfunk.github.io/mkdocs-material/).",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/masakichi/wiki.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/masakichi/wiki/issues"
+  },
+  "homepage": "https://github.com/masakichi/wiki#readme",
+  "devDependencies": {
+    "textlint": "^12.1.1",
+    "textlint-rule-abbr-within-parentheses": "^1.0.2",
+    "textlint-rule-alex": "^3.0.0",
+    "textlint-rule-en-capitalization": "^2.0.3",
+    "textlint-rule-en-spell": "^1.2.4",
+    "textlint-rule-no-todo": "^2.0.1",
+    "textlint-rule-period-in-list-item": "^0.3.2",
+    "textlint-rule-terminology": "^2.1.5",
+    "textlint-rule-unexpanded-acronym": "^1.2.4",
+    "textlint-rule-write-good": "^2.0.0"
+  }
+}
