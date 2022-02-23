@@ -1,3 +1,4 @@
+# yaml-language-server: $schema=https://squidfunk.github.io/mkdocs-material/schema.json
 site_name: Yuanji's Wiki
 copyright: Copyright © 2022 Yuanji All Rights Resarved.
 repo_url: https://github.com/masakichi/wiki
