@@ -4,7 +4,7 @@
 
 ### Formatting
 
-===! "Formatting"
+===! "Output"
 
     - ==This was marked==
     - ^^This was inserted^^
@@ -89,7 +89,7 @@
 
 ### Admonition
 
-=== "Admonition"
+=== "Output"
 
     !!! note "Phasellus posuere in sem ut cursus"
 
@@ -157,7 +157,7 @@
 
 ### Table
 
-===! "Table"
+===! "Output"
 
     | Method      | Description                          |
     | :---------- | :----------------------------------- |
@@ -177,7 +177,7 @@
 
 ### Keyboard
 
-===! "Keyboard"
+===! "Output"
 
     ++ctrl+alt+del++
 
@@ -189,7 +189,7 @@
 
 ### Embedding external files
 
-===! "External file"
+===! "Output"
 
     ```yaml title="mkdocs.yml" linenums="1"
     --8<-- "mkdocs.yml"

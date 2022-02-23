@@ -2,10 +2,12 @@
   "filters": {},
   "rules": {
     "abbr-within-parentheses": true,
-    "alex": true,
+    "alex": {
+      "allow": ["hooks"]
+    },
     "en-capitalization": true,
     "en-spell": {
-      "personalDictionary": ["Yuanji", "MkDocs", "textlint"]
+      "personalDictionary": ["Yuanji", "mkdocs", "textlint", "changelog"]
     },
     "no-todo": true,
     "period-in-list-item": true,
