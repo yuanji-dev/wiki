@@ -20,7 +20,12 @@ cd wiki
 python -m venv venv
 source venv/bin/activate
 pip install -r requirements.txt
+npm install #(1)
+pre-commit install #(2)
 ```
+
+1.  It will install [textlint and all rules](coding/markdown.md#linters) I'm using
+2.  It will setup [pre-commit hooks](coding/git.md#pre-commit)
 
 - Launch dev server
 
