@@ -20,3 +20,7 @@
 
 - [amanusk/s-tui: Terminal-based CPU stress and monitoring utility](https://github.com/amanusk/s-tui)
 - [Glances - An Eye on your system](https://nicolargo.github.io/glances/)
+
+## Tunneling
+
+- [anderspitman/awesome-tunneling: List of ngrok alternatives and other ngrok-like tunneling software and services. Focus on self-hosting.](https://github.com/anderspitman/awesome-tunneling)

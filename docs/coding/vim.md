@@ -65,6 +65,7 @@ I'm using [packer.nvim](https://github.com/wbthomason/packer.nvim) to manage all
 - [hrsh7th/vim-vsnip: Snippet plugin for vim/nvim that supports LSP/VSCode's snippet format.](https://github.com/hrsh7th/vim-vsnip)
 - [hrsh7th/vim-vsnip-integ: vim-vsnip integrations to other plugins.](https://github.com/hrsh7th/vim-vsnip-integ)
 - [rafamadriz/friendly-snippets: Set of preconfigured snippets for different languages.](https://github.com/rafamadriz/friendly-snippets)
+- [uga-rosa/cmp-dictionary: nvim-cmp source for dictionary.](https://github.com/uga-rosa/cmp-dictionary)
 
 ## Links
 
