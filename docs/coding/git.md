@@ -93,6 +93,8 @@ echo '{ "path": "cz-conventional-changelog" }' > ~/.czrc
     - Pager: [dandavison/delta: A syntax-highlighting pager for git, diff, and grep output](https://github.com/dandavison/delta)
     - .gitignore template: [gitignore.io](https://github.com/toptal/gitignore.io)
 
+See also: [dotfiles/git/.config/git at main · masakichi/dotfiles](https://github.com/masakichi/dotfiles/tree/main/git/.config/git)
+
 ## Project Wise Config
 
 ```ini title=".git/config"
@@ -116,6 +118,16 @@ echo '{ "path": "cz-conventional-changelog" }' > ~/.czrc
 [commit]
 	gpgsign = true
 ```
+
+## Git log
+
+### List commit message between two tags
+
+```shell
+git log --pretty="%s" --no-merges  v1.8.12..v1.9.0
+```
+
+Ref: [Git - pretty-formats Documentation](https://git-scm.com/docs/pretty-formats)
 
 ## Pre-commit
 

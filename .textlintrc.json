@@ -7,7 +7,13 @@
     },
     "en-capitalization": true,
     "en-spell": {
-      "personalDictionary": ["Yuanji", "mkdocs", "textlint", "changelog"]
+      "personalDictionary": [
+        "Yuanji",
+        "mkdocs",
+        "textlint",
+        "changelog",
+        "dotfiles"
+      ]
     },
     "no-todo": true,
     "period-in-list-item": true,
