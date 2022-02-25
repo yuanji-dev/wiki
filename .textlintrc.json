@@ -1,5 +1,9 @@
 {
-  "filters": {},
+  "filters": {
+    "node-types": {
+      "nodeTypes": ["BlockQuote", "Link", "Image", "Code"]
+    }
+  },
   "rules": {
     "abbr-within-parentheses": true,
     "alex": {
