@@ -1,9 +1,18 @@
 # English
 
-## Grammar
+## Style
+
+### Avoid passive voice
+
+> if you don’t want your readers to know who is performing an action, or if the action itself is more important than who performed the action, you might choose to use a passive voice.
+
+> In short, when used thoughtfully, a passive voice can be a useful tool, but in most cases, switching to an active voice will make your writing clearer, livelier and far more enjoyable to read.
 
 - [What is Passive Voice and Why Should You Avoid It? | Open Colleges](https://www.opencolleges.edu.au/careers/blog/what-passive-voice-and-why-should-you-avoid-it)
 
-  > if you don’t want your readers to know who is performing an action, or if the action itself is more important than who performed the action, you might choose to use a passive voice.
+### E-Prime
 
-  > In short, when used thoughtfully, a passive voice can be a useful tool, but in most cases, switching to an active voice will make your writing clearer, livelier and far more enjoyable to read.
+> E-Prime (short for English-Prime or English Prime, sometimes denoted É or E′) refers to a version of the English language that excludes all forms of the verb to be, including all conjugations, contractions and archaic forms.
+
+- [E-Prime - Wikipedia](https://en.wikipedia.org/wiki/E-Prime)
+- [E-Prime: English without the verb 'to be' | Hacker News](https://news.ycombinator.com/item?id=10688201)

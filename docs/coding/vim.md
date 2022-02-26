@@ -1,6 +1,6 @@
 # Vim
 
-Due to I'm using [Neovim](https://neovim.io/) now, so the term `Vim` in this article refers to Neovim.
+Due to I use [Neovim](https://neovim.io/) now, the term `Vim` in this article refers to Neovim.
 
 ## Installation
 
@@ -22,7 +22,7 @@ My own configurations: [dotfiles/nvim/.config/nvim at main · masakichi/dotfiles
 
 ### yaml-language-server
 
-- Using inlined schema
+- Using inline schema
 
 ```yaml
 # yaml-language-server: $schema=<urlToTheSchema>
@@ -34,7 +34,7 @@ My own configurations: [dotfiles/nvim/.config/nvim at main · masakichi/dotfiles
 
 ## Plugins
 
-I'm using [packer.nvim](https://github.com/wbthomason/packer.nvim) to manage all plugins.
+I use [packer.nvim](https://github.com/wbthomason/packer.nvim) to manage all plugins.
 
 ### General
 
@@ -54,7 +54,7 @@ I'm using [packer.nvim](https://github.com/wbthomason/packer.nvim) to manage all
 - [jose-elias-alvarez/null-ls.nvim: Use Neovim as a language server to inject LSP diagnostics, code actions, and more via Lua.](https://github.com/jose-elias-alvarez/null-ls.nvim)
 - [onsails/lspkind-nvim: vscode-like pictograms for neovim lsp completion items](https://github.com/onsails/lspkind-nvim)
 
-### Completion & Snippets
+### Completion & snippets
 
 - [hrsh7th/nvim-cmp: A completion plugin for neovim coded in Lua.](https://github.com/hrsh7th/nvim-cmp)
 - [hrsh7th/cmp-nvim-lsp: nvim-cmp source for neovim builtin LSP client](https://github.com/hrsh7th/cmp-nvim-lsp)
