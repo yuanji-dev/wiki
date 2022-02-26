@@ -168,3 +168,11 @@ Ref: [supported hooks](https://pre-commit.com/hooks.html)
 ```shell
 pre-commit install
 ```
+
+## Tips
+
+### Update git commit author date when amending
+
+```shell
+git commit --amend --date=now
+```
