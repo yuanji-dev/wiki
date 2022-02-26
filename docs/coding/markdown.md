@@ -1,8 +1,18 @@
 # Markdown
 
+## Issues
+
+!!! bug "Nested list"
+
+    - [Incorrect rendering of nested lists · Issue #545 · mkdocs/mkdocs](https://github.com/mkdocs/mkdocs/issues/545)
+
+      I'm using prettier to format Markdown and it uses 2 spaces indentation for nested lists, so that i have to install `mdx_truly_sane_lists` extension to bypass this issue
+
+      Well, if I change tab_width to 4 spaces for prettier, there is another issue, see: [Tab width should not affect text alignment after the bullet points in Markdown lists · Issue #5019 · prettier/prettier](https://github.com/prettier/prettier/issues/5019)
+
 ## Playground
 
-### Formatting
+### Basic formatting
 
 ===! "Output"
 

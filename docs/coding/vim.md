@@ -63,6 +63,8 @@ I use [packer.nvim](https://github.com/wbthomason/packer.nvim) to manage all plu
 - [hrsh7th/cmp-cmdline: nvim-cmp source for vim's cmdline](https://github.com/hrsh7th/cmp-cmdline)
 - [hrsh7th/cmp-vsnip: nvim-cmp source for vim-vsnip](https://github.com/hrsh7th/cmp-vsnip)
 - [hrsh7th/vim-vsnip: Snippet plugin for vim/nvim that supports LSP/VSCode's snippet format.](https://github.com/hrsh7th/vim-vsnip)
+  - Run `:VsnipOpen` to create/edit snippets
+  - The snippet format was described in [here](https://code.visualstudio.com/docs/editor/userdefinedsnippets#_snippet-syntax) or [here](https://github.com/Microsoft/language-server-protocol/blob/main/snippetSyntax.md)
 - [hrsh7th/vim-vsnip-integ: vim-vsnip integrations to other plugins.](https://github.com/hrsh7th/vim-vsnip-integ)
 - [rafamadriz/friendly-snippets: Set of preconfigured snippets for different languages.](https://github.com/rafamadriz/friendly-snippets)
 - [uga-rosa/cmp-dictionary: nvim-cmp source for dictionary.](https://github.com/uga-rosa/cmp-dictionary)
