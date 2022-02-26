@@ -213,11 +213,6 @@
     ```
     ````
 
-## Issues
-
-- Nested list: [Incorrect rendering of nested lists · Issue #545 · mkdocs/mkdocs](https://github.com/mkdocs/mkdocs/issues/545)
-  - I use prettier to format Markdown and it uses 2 spaces for nested lists, so that i have to install `mdx_truly_sane_lists` extension to bypass this issue
-
 ## Linters
 
 ### Vale
