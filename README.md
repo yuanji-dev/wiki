@@ -2,6 +2,8 @@
 
 This's my personal wiki where I share what I know. It's powered by [MkDocs](https://www.mkdocs.org/) with [Material theme](https://squidfunk.github.io/mkdocs-material/).
 
+I deploy this website on [Cloudflare Pages](sysadmin/cloudflare.md#deploy-a-mkdocs-site).
+
 ## Configurations
 
 You can find all configurations in `mkdocs.yml`, to enable YAML schema validation add the following line at the top of it.

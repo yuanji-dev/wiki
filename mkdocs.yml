@@ -30,6 +30,7 @@ nav:
       - sysadmin/acme.sh.md
       - sysadmin/services.md
       - sysadmin/wireguard.md
+      - sysadmin/cloudflare.md
   - Toolkit: toolkit.md
   - Life:
       - life/camera.md
