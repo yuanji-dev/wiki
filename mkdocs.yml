@@ -4,7 +4,7 @@ copyright: Copyright © 2022 Yuanji All Rights Resarved.
 repo_url: https://github.com/masakichi/wiki
 edit_uri: edit/main/docs/
 nav:
-  - Introduction: index.md
+  - Welcome: index.md
   - Coding:
       - coding/markdown.md
       - coding/git.md

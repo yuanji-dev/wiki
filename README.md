@@ -1,6 +1,6 @@
-# Welcome to Yuanji's Wiki
+# Welcome to Yuanji's wiki
 
-This is my personal wiki where I share what I know. It's powered by [MkDocs](https://www.mkdocs.org/) with [Material theme](https://squidfunk.github.io/mkdocs-material/).
+This's my personal wiki where I share what I know. It's powered by [MkDocs](https://www.mkdocs.org/) with [Material theme](https://squidfunk.github.io/mkdocs-material/).
 
 ## Configurations
 
@@ -20,14 +20,12 @@ cd wiki
 python -m venv venv
 source venv/bin/activate
 pip install -r requirements.txt
-npm install #(1)
-pre-commit install #(2)
+pre-commit install #(1)
 ```
 
-1.  It will install [textlint and all rules](coding/markdown.md#linters) I'm using
-2.  It will setup [pre-commit hooks](coding/git.md#pre-commit)
+1.  It will setup [pre-commit hooks](coding/git.md#pre-commit)
 
-- Launch dev server
+- Launch development server
 
 ```bash
 mkdocs serve

@@ -1,6 +1,6 @@
 # Git
 
-## Commit Messages
+## Commit messages
 
 ```bash
 npm install -g commitizen
@@ -13,9 +13,9 @@ echo '{ "path": "cz-conventional-changelog" }' > ~/.czrc
 - [commitizen/cz-cli: The commitizen command-line utility. #BlackLivesMatter](https://github.com/commitizen/cz-cli#making-your-repo-commitizen-friendly)
 - [commitizen-tools/commitizen: Create committing rules for projects auto bump versions and auto changelog generation](https://github.com/commitizen-tools/commitizen)
 
-## Global config & ignore
+## Global configuration & ignore
 
-=== "Global config"
+=== "Global configuration"
 
     ```ini title="~/.config/git/config"
     [user]
@@ -95,7 +95,7 @@ echo '{ "path": "cz-conventional-changelog" }' > ~/.czrc
 
 See also: [dotfiles/git/.config/git at main · masakichi/dotfiles](https://github.com/masakichi/dotfiles/tree/main/git/.config/git)
 
-## Project Wise Config
+## Project wise configuration
 
 ```ini title=".git/config"
 [core]
@@ -155,7 +155,7 @@ For more information see: https://pre-commit.com/
     pip install pre-commit
     ```
 
-### Current repository's config
+### Current repository's configuration
 
 ```yaml title=".pre-commit-config.yaml"
 --8<-- ".pre-commit-config.yaml"
