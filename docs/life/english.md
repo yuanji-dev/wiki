@@ -1,5 +1,26 @@
 # English
 
+## Grammar
+
+### Date
+
+| American English          | British English                                         |
+| ------------------------- | ------------------------------------------------------- |
+| Sept 6                    | 6 Sept                                                  |
+| September 6               | 6 September                                             |
+| September 6, 2019         | 6 September 2019 / the 6th of September, 2019           |
+| Monday, September 6, 2019 | Monday, 6 Sept 2019 / Monday the 6th of September, 2019 |
+
+??? summary "Summary Chart"
+
+    ![Date in Englin](date-in-english.jpg)
+    Ref: [How to say the DATE in English Woodward English](https://www.woodwardenglish.com/lesson/how-to-say-the-date-in-english/)
+
+See also:
+
+- [Correct Date Format | How To Write The Date In English | IELTS Australia](https://ielts.com.au/australia/prepare/article-how-to-write-the-date-correctly)
+- [How to Write Dates Correctly | Grammarly](https://www.grammarly.com/blog/how-to-write-dates/)
+
 ## Style
 
 ### Avoid passive voice

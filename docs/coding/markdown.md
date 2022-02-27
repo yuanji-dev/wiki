@@ -231,6 +231,7 @@ See also:
 - [Vale Documentation](https://docs.errata.ai/)
 - [officially supported styles](https://github.com/errata-ai/styles)
 - [Microsoft Style Guide](https://docs.microsoft.com/en-us/style-guide/welcome/)
+- [The Government Digital Service style guide | GOV.UK](https://www.gov.uk/guidance/style-guide/a-to-z-of-gov-uk-style) / [GitHub Link](https://github.com/alphagov/gds-vale-styles/blob/master/gds-style-guide-technical.md)
 
 ### Other linters
 
