@@ -21,7 +21,9 @@ nav:
       - devops/docker.md
       - devops/jenkins.md
   - Sysadmin:
-      - sysadmin/archlinux.md
+      - "Arch Linux":
+          - sysadmin/archlinux/index.md
+          - sysadmin/archlinux/packages.md
       - sysadmin/android.md
       - sysadmin/providers.md
       - sysadmin/installation.md
