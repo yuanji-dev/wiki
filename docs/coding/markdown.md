@@ -10,6 +10,12 @@
 
       Well, if I change tab_width to 4 spaces for prettier, there is another issue, see: [Tab width should not affect text alignment after the bullet points in Markdown lists · Issue #5019 · prettier/prettier](https://github.com/prettier/prettier/issues/5019)
 
+!!! bug "Abbreviations"
+
+    Prettier will escape asterisk(*) in Markdown, which is used as [a special syntax in Material for MkDocs](https://squidfunk.github.io/mkdocs-material/reference/abbreviations/).
+
+    See also: [Excessive escaping of asterisk](https://github.com/prettier/prettier/issues/3837#issuecomment-687916671)
+
 ## Playground
 
 ### Basic formatting
