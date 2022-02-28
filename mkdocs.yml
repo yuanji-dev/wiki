@@ -15,6 +15,7 @@ nav:
       - coding/frontend.md
       - coding/vim.md
       - coding/interview.md
+      - coding/gitlab.md
   - DevOps:
       - devops/ansible.md
       - devops/ssh.md
