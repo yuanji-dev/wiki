@@ -38,7 +38,9 @@ nav:
   - Life:
       - life/camera.md
       - life/english.md
-      - life/japan.md
+      - "Japan":
+          - life/japan/index.md
+          - life/japan/fe.md
       - life/recipe.md
 extra:
   social:
