@@ -255,3 +255,4 @@ See also:
 - [Syntax Highlighting | Hugo](https://gohugo.io/content-management/syntax-highlighting/#list-of-chroma-highlighting-languages)
 - [Rentry.co - Markdown Pastebin](https://rentry.co/)
 - [Extensions - Material for MkDocs](https://squidfunk.github.io/mkdocs-material/setup/extensions/)
+- [citations - Citing the author of a blockquote using Markdown syntax - Stack Overflow](https://stackoverflow.com/questions/2002120/citing-the-author-of-a-blockquote-using-markdown-syntax)

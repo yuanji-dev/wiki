@@ -21,6 +21,9 @@ nav:
       - devops/ssh.md
       - devops/docker.md
       - devops/jenkins.md
+      - "Kubernetes":
+          - devops/kubernetes/index.md
+          - devops/kubernetes/kustomize.md
   - Sysadmin:
       - "Arch Linux":
           - sysadmin/archlinux/index.md
