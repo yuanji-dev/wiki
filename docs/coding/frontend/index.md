@@ -5,15 +5,6 @@
 - [Learn to become a modern frontend developer](https://roadmap.sh/frontend)
 - [Web technology for developers | MDN](https://developer.mozilla.org/en-US/docs/Web)
 
-## JavaScript
-
-- Package Manager: npm / yarn
-- [JavaScript Cookbook, 3rd Edition](https://learning.oreilly.com/library/view/javascript-cookbook-3rd/9781492055747/)
-- [JavaScript Promise の本](https://azu.github.io/promises-book/)
-- [The Modern JavaScript Tutorial](https://javascript.info/)
-- [JavaScript Primer - 迷わないための入門書 #jsprimer](https://jsprimer.net/)
-- ES6 Module
-
 ## React
 
 ### Questions

@@ -12,7 +12,9 @@ nav:
       - coding/go.md
       - coding/python.md
       - coding/database.md
-      - coding/frontend.md
+      - "Frontend":
+          - coding/frontend/index.md
+          - coding/frontend/javascript.md
       - coding/vim.md
       - coding/interview.md
       - coding/gitlab.md

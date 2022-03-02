@@ -16,3 +16,7 @@ Shinsei has English-language online banking and telephone support.
 - No credit check
 
 - [GAICA Prepaid Card ｜ アプラス 新生銀行グループ](https://www.gaica.jp/e/)
+
+## Garbage & recycle
+
+- [資源・ごみの収集日 | 世田谷区ホームページ](https://www.city.setagaya.lg.jp/mokuji/kurashi/004/002/index.html)
