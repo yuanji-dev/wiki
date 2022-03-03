@@ -13,7 +13,12 @@ As known as **Fundamental Information Technology Engineer Examination** or FE.
 
 ## Schedule
 
-| Name                           | Time | Location |
-| ------------------------------ | ---- | -------- |
-| 基本情報技術者試験（午前試験） | TBD  | TBD      |
-| 基本情報技術者試験（午後試験） | TBD  | TBD      |
+| Name                           | Time                      | Location       |
+| ------------------------------ | ------------------------- | -------------- |
+| 基本情報技術者試験（午前試験） | 2022-04-04T10:00:00+09:00 | 三軒茶屋駅南口 |
+| 基本情報技術者試験（午後試験） | 2022-04-11T13:00:00+09:00 | 三軒茶屋駅南口 |
+
+## Links
+
+- [IT 知識 0 から 1 ヶ月で基本情報技術者試験に合格した話 - Qiita](https://qiita.com/yusuke_blog1026/items/d6b079fa026ce6776773)
+- [基本情報技術者過去問道場｜基本情報技術者試験.com](https://www.fe-siken.com/fekakomon.php)
