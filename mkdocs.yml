@@ -1,7 +1,7 @@
 # yaml-language-server: $schema=https://squidfunk.github.io/mkdocs-material/schema.json
 site_name: Yuanji's Wiki
 copyright: Copyright © 2022 Yuanji All Rights Resarved.
-repo_url: https://github.com/masakichi/wiki
+repo_url: https://gitlab.com/yuanji/wiki
 edit_uri: edit/main/docs/
 nav:
   - Welcome: index.md
@@ -61,6 +61,9 @@ extra:
     - icon: material/gmail
       link: mailto:self@gimo.me
 theme:
+  icon:
+    repo: fontawesome/brands/gitlab
+    logo: fontawesome/solid/yin-yang
   font:
     text: Cantarell
     code: Inconsolata
