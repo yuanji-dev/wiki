@@ -6,7 +6,26 @@
 
 ## Configurations
 
-- [tony/tmux-config: Example tmux configuration - screen + vim key-bindings, system stat, cpu load bar.](https://github.com/tony/tmux-config)
+My own configurations: [dotfiles/tmux at main · masakichi/dotfiles](https://github.com/masakichi/dotfiles/tree/main/tmux)
+
+Ref: [tony/tmux-config: Example tmux configuration - screen + vim key-bindings, system stat, cpu load bar.](https://github.com/tony/tmux-config)
+
+### 24-bit color(true color)
+
+- Testing
+
+```shell
+curl -s https://raw.githubusercontent.com/tmux/tmux/master/tools/24-bit-color.sh | bash
+```
+
+- Vim under tmux
+
+```shell
+set -g default-terminal "tmux-256color"
+set -ga terminal-overrides ",*256col*:Tc"
+```
+
+Ref: [How to use true colors in vim under tmux? · Issue #1246 · tmux/tmux](https://github.com/tmux/tmux/issues/1246)
 
 ## Session managers
 
