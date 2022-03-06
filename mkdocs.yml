@@ -42,7 +42,6 @@ nav:
       - sysadmin/services.md
       - sysadmin/wireguard.md
       - sysadmin/cloudflare.md
-  - Toolkit: toolkit.md
   - Life:
       - life/camera.md
       - life/english.md
@@ -50,6 +49,7 @@ nav:
           - life/japan/index.md
           - life/japan/fe.md
       - life/recipe.md
+  - Resource: resource.md
 extra:
   social:
     - icon: fontawesome/brands/github
