@@ -1,5 +1,6 @@
 ## General developer tools
 
+- [CyberChef](https://gchq.github.io/CyberChef/)
 - [Home - SmallDev.tools](https://smalldev.tools/)
 - [开发者武器库 · 属于程序员的工具箱](https://devtool.tech/)
 
@@ -8,8 +9,14 @@
 - [ASCIIFlow](https://asciiflow.com/#/)
 - [Excalidraw | Hand-drawn look & feel • Collaborative • Secure](https://excalidraw.com/)
 
+## Image
+
+- [Remove Background from Image – remove.bg](https://www.remove.bg/)
+- [Squoosh: Compress and compare images with different codecs in your browser](https://squoosh.app/)
+
 ## Calculator
 
+- [Numbr: A smart calculator combined with a notepad](https://numbr.dev/)
 - [SLA & Uptime calculator: How much downtime corresponds to 99.2 % uptime](https://uptime.is/)
 
 ## NGINX configuration

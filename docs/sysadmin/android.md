@@ -61,6 +61,15 @@
 - [x] Viber
 - [x] PagerDuty (rakpd)
 
+### F-Droid
+
+- [x] F-Droid
+- [x] GPSLogger
+  ```
+  POST https://huginn/users/1/update_location/:secret
+  Body: latitude=%LAT&longitude=%LON&radius=%ACC&speed=%SPD&course=%DIR
+  ```
+
 ### Others
 
 - [x] Bitwarden
