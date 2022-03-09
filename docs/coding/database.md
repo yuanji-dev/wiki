@@ -1,5 +1,12 @@
 # Database
 
+## Example databases
+
+- [MySQL :: Other MySQL Documentation#Example Databases](https://dev.mysql.com/doc/index-other.html)
+- [genschsa/mysql-employees - Docker Image | Docker Hub](https://hub.docker.com/r/genschsa/mysql-employees)
+
+Ref: [100 秒で MySQL のローカル環境を Docker で作って、データも自動で入れる。最強の SQL 練習環境構築法](https://zenn.dev/takuho/articles/efc40344f3122e)
+
 ## Links
 
 - [PlanetScale](https://planetscale.com/)
