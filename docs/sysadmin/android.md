@@ -4,6 +4,7 @@
 
 - Xiaomi Redmi K40
 
+  - [Redmi K40/POCO F3/Mi 11X Firmware ROM TWRP (alioth)](https://mifirm.net/model/alioth.ttt)
   - [MIUI 13 - MIUI 13 STABLE RELEASE | Xiaomi European Community | MIUI ROM Since 2010](https://xiaomi.eu/community/threads/miui-13-stable-release.64441/)
   - [LineageOS Downloads](https://download.lineageos.org/alioth)
   - Enable VoLTE: `*＃*＃86583＃*＃*`
