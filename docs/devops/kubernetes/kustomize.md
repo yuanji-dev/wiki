@@ -34,12 +34,12 @@ Suppose you have following file structure:
 
 If you want to apply manifests for `dev` environment, you can do:
 
-```shell
+```bash
 kubectl apply -k overlays/dev
 ```
 
 or
 
-```shell
+```bash
 kubectl kustomize overlays/dev | kubectl apply -f -
 ```

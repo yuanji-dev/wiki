@@ -6,7 +6,7 @@
 
 ## Installation
 
-```shell
+```bash
 curl https://get.volta.sh | bash
 ```
 
@@ -14,13 +14,13 @@ curl https://get.volta.sh | bash
 
 ### Install Node engines
 
-```shell
+```bash
 volta install node@16
 ```
 
 ### Install package binaries
 
-```shell
+```bash
 volta install yarn
 volta install prettier
 volta install commitizen cz-conventional-changelog

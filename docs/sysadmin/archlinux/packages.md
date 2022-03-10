@@ -4,7 +4,7 @@
 
 ### Build in a clean chroot
 
-```shell
+```bash
 sudo pacman -S devtools
 extra-x86_64-build
 ```
@@ -13,7 +13,7 @@ Ref: [DeveloperWiki:Building in a clean chroot - ArchWiki](https://wiki.archlinu
 
 ### Submit to AUR
 
-```shell
+```bash
 git init
 git branch -M master #(1)
 git remote add aur ssh://aur@aur.archlinux.org/vale-git.git

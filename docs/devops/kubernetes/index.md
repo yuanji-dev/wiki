@@ -1,5 +1,19 @@
 # Kubernetes
 
+## kubectl
+
+### One command to create pod and service
+
+```bash
+kubectl run nginx --image=nginx --restart=Never --port=80 --expose
+```
+
+### Create temporary busybox pod
+
+```bash
+kubectl run busybox --image=busybox --restart=Never --rm -it -- /bin/sh
+```
+
 ## Kubernetes JSON schemas
 
 - [yannh/kubeconform: A FAST Kubernetes manifests validator, with support for Custom Resources!](https://github.com/yannh/kubeconform)

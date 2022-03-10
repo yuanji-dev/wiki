@@ -123,7 +123,7 @@ See also: [dotfiles/git/.config/git at main · masakichi/dotfiles](https://githu
 
 ### List commit message between two tags
 
-```shell
+```bash
 git log --pretty="%s" --no-merges  v1.8.12..v1.9.0
 ```
 
@@ -139,19 +139,19 @@ For more information see: https://pre-commit.com/
 
 === ":material-arch: Arch Linux"
 
-    ```shell
+    ```bash
     sudo pacman -S python-pre-commit
     ```
 
 === ":material-apple: macOS"
 
-    ```shell
+    ```bash
     brew install pre-commit
     ```
 
 === ":material-language-python: Python"
 
-    ```shell
+    ```bash
     pip install pre-commit
     ```
 
@@ -165,7 +165,7 @@ Ref: [supported hooks](https://pre-commit.com/hooks.html)
 
 ### Setup git hooks
 
-```shell
+```bash
 pre-commit install
 ```
 
@@ -173,6 +173,6 @@ pre-commit install
 
 ### Update git commit author date when amending
 
-```shell
+```bash
 git commit --amend --date=now
 ```

@@ -29,6 +29,7 @@ nav:
       - devops/jenkins.md
       - "Kubernetes":
           - devops/kubernetes/index.md
+          - devops/kubernetes/k3s.md
           - devops/kubernetes/kustomize.md
   - Sysadmin:
       - "Arch Linux":

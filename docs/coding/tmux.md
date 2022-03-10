@@ -14,13 +14,13 @@ Ref: [tony/tmux-config: Example tmux configuration - screen + vim key-bindings, 
 
 - Testing
 
-```shell
+```bash
 curl -s https://raw.githubusercontent.com/tmux/tmux/master/tools/24-bit-color.sh | bash
 ```
 
 - Vim under tmux
 
-```shell
+```bash
 set -g default-terminal "tmux-256color"
 set -ga terminal-overrides ",*256col*:Tc"
 ```

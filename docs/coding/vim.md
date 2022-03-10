@@ -6,13 +6,13 @@ Due to I use [Neovim](https://neovim.io/) now, the term `Vim` in this article re
 
 === ":material-arch: Arch Linux"
 
-    ```shell
+    ```bash
     sudo pacman -S neovim
     ```
 
 === ":material-apple: macOS"
 
-    ```shell
+    ```bash
     brew install neovim
     ```
 
