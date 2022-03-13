@@ -136,6 +136,7 @@ Ref:
 
 - [平成 30 年秋期 午後問 2(ソフトウェア)｜基本情報技術者試験.com](https://www.fe-siken.com/kakomon/30_aki/pm02.html)
 - [平成 23 年特別 午後問 2(ソフトウェア)｜基本情報技術者試験.com](https://www.fe-siken.com/kakomon/23_toku/pm02.html)
+- [平成 26 年秋期 午後問 3(ソフトウェア)｜基本情報技術者試験.com](https://www.fe-siken.com/kakomon/26_aki/pm03.html)
 
 #### ガーベジコレクタ
 
@@ -158,6 +159,36 @@ Ref: [平成 24 年春期 午後問 2(ソフトウェア)｜基本情報技術�
 #### インタプリタとコンパイラ
 
 Ref: [平成 27 年春期 午後問 2(ソフトウェア)｜基本情報技術者試験.com](https://www.fe-siken.com/kakomon/27_haru/pm02.html)
+
+### ネットワーク
+
+#### データ転送
+
+Ref: [平成 24 年春期 午後問 4(ネットワーク)｜基本情報技術者試験.com](https://www.fe-siken.com/kakomon/24_haru/pm04.html)
+
+#### CRC(巡回冗長検査)
+
+Ref: [平成 22 年秋期 午後問 3(ネットワーク)｜基本情報技術者試験.com](https://www.fe-siken.com/kakomon/22_aki/pm03.html)
+
+#### Cookie
+
+Ref: [平成 27 年秋期 午後問 4(ネットワーク)｜基本情報技術者試験.com](https://www.fe-siken.com/kakomon/27_aki/pm04.html)
+
+#### ルーティング
+
+Ref: [平成 23 年特別 午後問 4(ネットワーク)｜基本情報技術者試験.com](https://www.fe-siken.com/kakomon/23_toku/pm04.html)
+
+#### 無線 LAN
+
+Ref: [平成 29 年春期 午後問 4(ネットワーク)｜基本情報技術者試験.com](https://www.fe-siken.com/kakomon/29_haru/pm04.html)
+
+### ソフトウェア設計
+
+#### テスト方法
+
+> 分岐網羅のテストケースには「全ての分岐後の全ての経路を 1 回は実行する」
+
+Ref: [平成 25 年秋期 午後問 5(ソフトウェア設計)｜基本情報技術者試験.com](https://www.fe-siken.com/kakomon/25_aki/pm05.html)
 
 ## Links
 
