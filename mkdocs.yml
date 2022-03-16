@@ -10,7 +10,9 @@ nav:
       - coding/git.md
       - coding/bash.md
       - coding/go.md
-      - coding/python.md
+      - Python:
+          - coding/python/index.md
+          - coding/python/poetry.md
       - coding/database.md
       - "Frontend":
           - coding/frontend/index.md

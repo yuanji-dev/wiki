@@ -1,5 +1,9 @@
 # Python
 
+## Package
+
+See [Poetry](poetry.md) for more information.
+
 ## Testing
 
 - Using testing data
