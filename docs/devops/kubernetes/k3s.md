@@ -36,3 +36,20 @@ sudo ln -rsf /run/systemd/resolve/stub-resolv.conf /etc/resolv.conf
 ```
 
 Ref: [systemd-resolved - ArchWiki](https://wiki.archlinux.org/title/Systemd-resolved#DNS)
+
+### Failed to kubectl port-forward
+
+If you met following issue when calling `kubectl port-forward`,
+
+```
+failed to connect to localhost:8888 inside namespace "****************************************************************", IPv4: dial tcp4: lookup localhost: Try again IPv6 dial tcp6: lookup localhost: Try again
+```
+
+Please check if `/etc/hosts` file contains following records on your host machine.
+
+```ini title="/etc/hosts"
+127.0.0.1        localhost
+::1              localhost
+```
+
+Ref: [Network configuration - ArchWiki](https://wiki.archlinux.org/title/Network_configuration#Local_hostname_resolution)

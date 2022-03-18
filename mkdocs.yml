@@ -34,6 +34,7 @@ nav:
           - devops/kubernetes/index.md
           - devops/kubernetes/k3s.md
           - devops/kubernetes/kustomize.md
+          - devops/kubernetes/cert-manager.md
   - Sysadmin:
       - "Arch Linux":
           - sysadmin/archlinux/index.md
