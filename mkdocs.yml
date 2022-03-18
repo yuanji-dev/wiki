@@ -13,6 +13,7 @@ nav:
       - Python:
           - coding/python/index.md
           - coding/python/poetry.md
+          - coding/python/oauthlib.md
       - coding/database.md
       - "Frontend":
           - coding/frontend/index.md

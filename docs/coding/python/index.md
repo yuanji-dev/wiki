@@ -1,6 +1,6 @@
 # Python
 
-## Package
+## Packaging
 
 See [Poetry](poetry.md) for more information.
 

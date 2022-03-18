@@ -4,22 +4,22 @@
 - [Home - SmallDev.tools](https://smalldev.tools/)
 - [开发者武器库 · 属于程序员的工具箱](https://devtool.tech/)
 
-## Diagram
+## Diagrams
 
 - [ASCIIFlow](https://asciiflow.com/#/)
 - [Excalidraw | Hand-drawn look & feel • Collaborative • Secure](https://excalidraw.com/)
 
-## Image
+## Images
 
 - [Remove Background from Image – remove.bg](https://www.remove.bg/)
 - [Squoosh: Compress and compare images with different codecs in your browser](https://squoosh.app/)
 
-## Calculator
+## Calculators
 
 - [Numbr: A smart calculator combined with a notepad](https://numbr.dev/)
 - [SLA & Uptime calculator: How much downtime corresponds to 99.2 % uptime](https://uptime.is/)
 
-## NGINX configuration
+## NGINX configurations
 
 - [NGINXConfig | DigitalOcean](https://www.digitalocean.com/community/tools/nginx)
 - [Mozilla SSL Configuration Generator](https://ssl-config.mozilla.org/)
@@ -36,3 +36,7 @@
 ## Illustration
 
 - [イラストセンター/ 全て無料で商用利用 OK のフリー素材サイト](https://illustcenter.com/)
+
+## Cheat sheets
+
+- [chubin/cheat.sh: the only cheat sheet you need](https://github.com/chubin/cheat.sh)
