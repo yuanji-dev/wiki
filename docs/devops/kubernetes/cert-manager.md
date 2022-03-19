@@ -122,3 +122,34 @@ spec:
 ```
 
 Ref: [Certificate Resources | cert-manager](https://cert-manager.io/docs/usage/certificate/)
+
+## Using certificates
+
+You can refer to a certificate in `Ingress` by using `secretName` like following example:
+
+```yaml
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: whoami
+  annotations:
+    kubernetes.io/ingress.class: "traefik"
+spec:
+  tls:
+    - hosts:
+        - whoami.example.com
+      secretName: example-com-wildcard-tls #(1)
+  rules:
+    - host: whoami.example.com
+      http:
+        paths:
+          - path: /
+            pathType: Prefix
+            backend:
+              service:
+                name: whoami
+                port:
+                  number: 80
+```
+
+1.  Refer to the certificate you created in the [previous step](#creating-certificates)

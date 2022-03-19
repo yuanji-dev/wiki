@@ -14,6 +14,20 @@ kubectl run nginx --image=nginx --restart=Never --port=80 --expose
 kubectl run busybox --image=busybox --restart=Never --rm -it -- /bin/sh
 ```
 
+### Create manifests
+
+===! "Deployment"
+
+    ```bash
+    kubectl create deployment whoami --image=traefik/whoami -o yaml --dry-run=client
+    ```
+
+=== "Service"
+
+    ```bash
+    kubectl create service clusterip whoami --tcp=80:80 -o yaml --dry-run=client
+    ```
+
 ## Kubernetes JSON schemas
 
 - [yannh/kubeconform: A FAST Kubernetes manifests validator, with support for Custom Resources!](https://github.com/yannh/kubeconform)

@@ -19,6 +19,93 @@ kubectl get node -o wide
 
 Ref: [alexellis/k3sup: bootstrap Kubernetes with k3s over SSH < 1 min 🚀](https://github.com/alexellis/k3sup#-setup-a-kubernetes-server-with-k3sup)
 
+## Usage
+
+### Deploying whoami
+
+You can use following manifests to deploy [traefik/whoami](https://github.com/traefik/whoami) to verify if the newly created k3s cluster works well:
+
+??? info "Example manifests for whoami"
+
+    *Please change TLS & hosts configurations to fit your own needs*
+
+    ```yaml title="whoami.k8s.yaml"
+    apiVersion: apps/v1
+    kind: Deployment
+    metadata:
+      labels:
+        app: whoami
+      name: whoami
+    spec:
+      replicas: 1
+      selector:
+        matchLabels:
+          app: whoami
+      template:
+        metadata:
+          labels:
+            app: whoami
+        spec:
+          containers:
+            - image: traefik/whoami
+              name: whoami
+    ---
+    apiVersion: v1
+    kind: Service
+    metadata:
+      labels:
+        app: whoami
+      name: whoami
+    spec:
+      ports:
+        - name: 80-80
+          port: 80
+          protocol: TCP
+          targetPort: 80
+      selector:
+        app: whoami
+      type: ClusterIP
+    ---
+    apiVersion: traefik.containo.us/v1alpha1
+    kind: Middleware
+    metadata:
+      name: https-redirect-scheme
+    spec:
+      redirectScheme:
+        scheme: https
+        port: "443"
+    ---
+    apiVersion: networking.k8s.io/v1
+    kind: Ingress
+    metadata:
+      name: whoami
+      annotations:
+        kubernetes.io/ingress.class: "traefik"
+        traefik.ingress.kubernetes.io/router.middlewares: default-https-redirect-scheme@kubernetescrd
+    spec:
+      tls:
+        - hosts:
+            - whoami.example.com
+          secretName: example-com-wildcard-tls #(1)
+      rules:
+        - host: whoami.example.com
+          http:
+            paths:
+              - path: /
+                pathType: Prefix
+                backend:
+                  service:
+                    name: whoami
+                    port:
+                      number: 80
+    ```
+
+    1.  See [cert-manager](cert-manager.md) for more info
+
+Ref:
+
+- [Traefik Proxy 2.x and Kubernetes 101 | Traefik Labs](https://traefik.io/blog/traefik-proxy-kubernetes-101/)
+
 ## Troubleshooting
 
 ### Failed to pull image
@@ -53,3 +140,25 @@ Please check if `/etc/hosts` file contains following records on your host machin
 ```
 
 Ref: [Network configuration - ArchWiki](https://wiki.archlinux.org/title/Network_configuration#Local_hostname_resolution)
+
+### Unable to get real client IP address
+
+You can create `traefik-config.yaml` under `/var/lib/rancher/k3s/server/manifests/`:
+
+```yaml title="/var/lib/rancher/k3s/server/manifests/traefik-config.yaml"
+apiVersion: helm.cattle.io/v1
+kind: HelmChartConfig
+metadata:
+  name: traefik
+  namespace: kube-system
+spec:
+  valuesContent: |-
+    service:
+      spec:
+        externalTrafficPolicy: Local
+```
+
+Ref:
+
+- [Rancher Docs: Networking](https://rancher.com/docs/k3s/latest/en/networking/#traefik-ingress-controller)
+- [traefik-helm-chart/values.yaml at master · traefik/traefik-helm-chart](https://github.com/traefik/traefik-helm-chart/blob/master/traefik/values.yaml)
