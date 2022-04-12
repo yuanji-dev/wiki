@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "wiki"
+version = "0.1.0"
+description = "Yuanji's Wiki"
+authors = ["Yuanji <self@gimo.me>"]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+mkdocs-material = "^8.2.9"
+mdx-truly-sane-lists = "^1.2"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
