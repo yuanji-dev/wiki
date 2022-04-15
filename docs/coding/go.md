@@ -10,6 +10,12 @@
 - [spf13/cobra: A Commander for modern Go CLI interactions](https://github.com/spf13/cobra)
 - [gorilla/mux: A powerful HTTP router and URL matcher for building Go web servers with 🦍](https://github.com/gorilla/mux)
 - [labstack/echo: High performance, minimalist Go web framework](https://github.com/labstack/echo)
+- [cznic / sqlite · GitLab](https://gitlab.com/cznic/sqlite)
+
+## Tools
+
+- [mgechev/revive: 🔥 ~6x faster, stricter, configurable, extensible, and beautiful drop-in replacement for golint](https://github.com/mgechev/revive)
+- [JSON-to-Go: Convert JSON to Go instantly](https://mholt.github.io/json-to-go/)
 
 ## Mod
 

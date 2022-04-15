@@ -18,3 +18,4 @@
 - [How IPv6 changes the world | Lobsters](https://lobste.rs/s/f7ocwo/how_ipv6_changes_world)
 - [Silly usage of AWS EC2 IPv6 prefixes | Lobsters](https://lobste.rs/s/jptb5z/silly_usage_aws_ec2_ipv6_prefixes)
 - [IPv4, IPv6, and a sudden change in attitude | Lobsters](https://lobste.rs/s/nmblah/ipv4_ipv6_sudden_change_attitude)
+- [Hi. NONOGAKI on Twitter: "恐れていたことだけど、さくらの VPS の IPv6 が使い物にならなくなった。 spamer が多いため spamhaus に登録されてしまい、/64 単位でブロックされてしまっている。" / Twitter](https://twitter.com/xplntr/status/1514051028475588609)

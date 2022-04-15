@@ -23,6 +23,8 @@ You can find the official documentation of Cloudflare Pages from [here](https://
 
 ### Deploy a MkDocs site
 
+- Build configurations
+
 | Name:                   | Value          |
 | ----------------------- | -------------- |
 | Build command:          | `mkdocs build` |

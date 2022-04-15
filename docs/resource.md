@@ -32,6 +32,7 @@
 ## Tunneling
 
 - [anderspitman/awesome-tunneling: List of ngrok alternatives and other ngrok-like tunneling software and services. Focus on self-hosting.](https://github.com/anderspitman/awesome-tunneling)
+- [ekzhang/bore: 🕳 bore is a simple CLI tool for making tunnels to localhost](https://github.com/ekzhang/bore)
 
 ## Illustration
 
