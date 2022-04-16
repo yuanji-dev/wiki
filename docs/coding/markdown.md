@@ -256,3 +256,4 @@ See also:
 - [Rentry.co - Markdown Pastebin](https://rentry.co/)
 - [Extensions - Material for MkDocs](https://squidfunk.github.io/mkdocs-material/setup/extensions/)
 - [citations - Citing the author of a blockquote using Markdown syntax - Stack Overflow](https://stackoverflow.com/questions/2002120/citing-the-author-of-a-blockquote-using-markdown-syntax)
+- [Markdown Tables generator - TablesGenerator.com](https://www.tablesgenerator.com/markdown_tables)
