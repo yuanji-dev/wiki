@@ -1,12 +1,30 @@
 # Packages
 
+## Download a package
+
+```bash
+sudo pacman -Syw foobar
+```
+
+## Install local package
+
+```bash
+sudo pacman -U foobar-2-1-any.pkg.tar.xz
+```
+
+## Download AUR repository
+
+```bash
+yay -G aur/goldendict-git
+```
+
 ## Create packages
 
 ### Build in a clean chroot
 
 ```bash
 sudo pacman -S devtools
-extra-x86_64-build
+extra-x86_64-build -- -I ~/packages/foobar/foobar-2-1-any.pkg.tar.xz
 ```
 
 Ref: [DeveloperWiki:Building in a clean chroot - ArchWiki](https://wiki.archlinux.org/title/DeveloperWiki:Building_in_a_clean_chroot)

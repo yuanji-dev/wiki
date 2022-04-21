@@ -2,6 +2,7 @@
 
 - [CyberChef](https://gchq.github.io/CyberChef/)
 - [Home - SmallDev.tools](https://smalldev.tools/)
+- [ToolsOcean.com - The 100% Free Online Web Tools](https://toolsocean.com/)
 - [开发者武器库 · 属于程序员的工具箱](https://devtool.tech/)
 
 ## Diagrams
