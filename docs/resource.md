@@ -41,3 +41,13 @@
 ## Cheat sheets
 
 - [chubin/cheat.sh: the only cheat sheet you need](https://github.com/chubin/cheat.sh)
+
+## JSON
+
+- [JSON Hero - A beautiful JSON viewer](https://jsonhero.io/)
+- [JSON Visio](https://jsonvisio.com/)
+
+## SaaS
+
+- [Custom Forms with No Server Code | Formspree](https://formspree.io/)
+- [GoatCounter – open source web analytics](https://www.goatcounter.com/)
