@@ -1,5 +1,10 @@
 # CSS
 
+## Learning
+
+- [Learn CSS](https://web.dev/learn/css/)
+- [Learn css in Y Minutes](https://learnxinyminutes.com/docs/css/)
+
 ## Minimal frameworks
 
 - [kevquirk/simple.css: Classless CSS template that allows you to make a good looking website really quickly.](https://github.com/kevquirk/simple.css)
@@ -23,5 +28,4 @@
 
 ## Links
 
-- [Learn css in Y Minutes](https://learnxinyminutes.com/docs/css/)
 - [Web 制作者がチェックしておきたい！ 2022 年版、CSS フレームワークのまとめ | コリス](https://coliss.com/articles/build-websites/operation/css/awesome-css-frameworks.html)

@@ -14,6 +14,7 @@
 
 - [Remove Background from Image – remove.bg](https://www.remove.bg/)
 - [Squoosh: Compress and compare images with different codecs in your browser](https://squoosh.app/)
+- [Look Scanned](https://lookscanned.io/)
 
 ## Calculators
 
