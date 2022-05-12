@@ -1,5 +1,11 @@
 # SSH
 
+## Get public key from private key
+
+```bash
+ssh-keygen -y -f mykey.pem > mykey.pub
+```
+
 ## Links
 
 - [SSH Tutorial for Linux](https://www.climagic.org/tutorials/SSH_Tutorial_for_Linux.php)

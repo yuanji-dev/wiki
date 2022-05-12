@@ -19,3 +19,24 @@ ansible -i inventory/hosts all -m debug -a 'msg="{{ansible_ssh_host}}"'
 ```bash
 ansible all -i "localhost," -c local -m shell -a 'echo hello world'
 ```
+
+## Limit loop output with label
+
+```yaml
+- name: Create servers
+  digital_ocean:
+    name: "{{ item.name }}"
+    state: present
+  loop:
+    - name: server1
+      disks: 3gb
+      ram: 15Gb
+      network:
+        nic01: 100Gb
+        nic02: 10Gb
+        ...
+  loop_control:
+    label: "{{ item.name }}"
+```
+
+Ref: [Loops — Ansible Documentation](https://docs.ansible.com/ansible/latest/user_guide/playbooks_loops.html#limiting-loop-output-with-label)

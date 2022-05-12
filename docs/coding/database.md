@@ -16,6 +16,7 @@
 - [Worry-Free Managed Database Hosting (DBaaS) | DigitalOcean](https://www.digitalocean.com/products/managed-databases)
 - [PlanetScale](https://planetscale.com/)
 - [Upstash: Serverless Data for Redis® and Kafka®](https://upstash.com/)
+- [Announcing D1: our first SQL database](https://blog.cloudflare.com/introducing-d1/)
 
 ## Schema migration
 
@@ -37,3 +38,5 @@ Ref: [100 秒で MySQL のローカル環境を Docker で作って、データ�
 - [Fauna | The data API for modern applications](https://fauna.com/)
 - [The Open Source Firebase Alternative | Supabase](https://supabase.com/)
 - [Python の ORM の Peewee を使ってデータベースを操作してみる(2019 年 8 月版) - Qiita](https://qiita.com/mima_ita/items/9d4e1d0afac1865acdbb)
+- [I'm All-In on Server-Side SQLite · Fly](https://fly.io/blog/all-in-on-sqlite-litestream/)
+- [Getting started with database development : databasedevelopment](https://www.reddit.com/r/databasedevelopment/comments/unj8d1/getting_started_with_database_development/)
