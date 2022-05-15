@@ -55,6 +55,7 @@ nav:
       - "Japan":
           - life/japan/index.md
           - life/japan/fe.md
+          - life/japan/sg.md
       - life/recipe.md
   - Resource: resource.md
 extra:
