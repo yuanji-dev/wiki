@@ -46,6 +46,7 @@ I use [packer.nvim](https://github.com/wbthomason/packer.nvim) to manage all plu
 - [nvim-telescope/telescope.nvim: Find, Filter, Preview, Pick. All lua, all the time.](https://github.com/nvim-telescope/telescope.nvim)
 - [nvim-treesitter/nvim-treesitter: Nvim Treesitter configurations and abstraction layer](https://github.com/nvim-treesitter/nvim-treesitter)
 - [iamcco/markdown-preview.nvim: markdown preview plugin for (neo)vim](https://github.com/iamcco/markdown-preview.nvim)
+- [ap/vim-css-color: Preview colours in source code while editing](https://github.com/ap/vim-css-color)
 
 ### LSP
 
