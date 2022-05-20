@@ -81,6 +81,10 @@ grant all privileges on database miniflux to miniflux;
 psql -U miniflux -h localhost -d miniflux -f miniflux.sql
 ```
 
+## Upgrade
+
+Ref: https://wiki.archlinux.org/title/PostgreSQL#pg_upgrade
+
 ## prometheus-postgresql-exporter
 
 ```bash title="/etc/conf.d/prometheus-postgresql-exporter"
