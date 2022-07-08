@@ -55,6 +55,17 @@ def test_create_deployment_with_conflicting_deleted_deployment_name(mock_get_exi
 
 Ref: [mocking - How do I mock an open used in a with statement (using the Mock framework in Python)? - Stack Overflow](https://stackoverflow.com/questions/1289894/how-do-i-mock-an-open-used-in-a-with-statement-using-the-mock-framework-in-pyth)
 
+## Hacks
+
+### Disable SSL validation globally
+
+```python
+import os
+os.environ['CURL_CA_BUNDLE'] = ''
+```
+
+Ref: [Python の requests で verify=False を使わずに SSL の検証を無効化する - Qiita](https://qiita.com/hrappuccino/items/84e3a5113b871037024a)
+
 ## Links
 
 - [The Python Standard Library](https://docs.python.org/3/library/index.html)
