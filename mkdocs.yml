@@ -40,6 +40,7 @@ nav:
           - sysadmin/archlinux/index.md
           - sysadmin/archlinux/packages.md
       - sysadmin/android.md
+      - sysadmin/chromeos.md
       - sysadmin/providers.md
       - sysadmin/installation.md
       - sysadmin/code-server.md
