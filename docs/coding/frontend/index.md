@@ -42,3 +42,13 @@
 ## Bootstrap
 
 - [Spacing · Bootstrap v5.1](https://getbootstrap.com/docs/5.1/utilities/spacing/)
+- [GitHub - thomaspark/bootswatch: Themes for Bootstrap](https://github.com/thomaspark/bootswatch)
+
+## Icons
+
+- [GitHub - feathericons/feather: Simply beautiful open source icons](https://github.com/feathericons/feather)
+
+## Templates
+
+- [GitHub - h5bp/html5-boilerplate: A professional front-end template for building fast, robust, and adaptable web apps or sites.](https://github.com/h5bp/html5-boilerplate)
+- [GitHub - bradtraversy/vanillawebprojects: Mini projects built with HTML5, CSS & JavaScript. No frameworks or libraries](https://github.com/bradtraversy/vanillawebprojects)
