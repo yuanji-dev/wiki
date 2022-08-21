@@ -29,3 +29,4 @@ Ref: [JavaScript, get date of the next day - Stack Overflow](https://stackoverfl
 - [JavaScript Primer - 迷わないための入門書 #jsprimer](https://jsprimer.net/)
 - [JavaScript Cookbook, 3rd Edition](https://learning.oreilly.com/library/view/javascript-cookbook-3rd/9781492055747/)
 - [JavaScript Promise の本](https://azu.github.io/promises-book/)
+- [Understanding the Event Loop, Callbacks, Promises, and Async/Await in JavaScript | DigitalOcean](https://www.digitalocean.com/community/tutorials/understanding-the-event-loop-callbacks-promises-and-async-await-in-javascript)

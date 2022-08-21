@@ -19,6 +19,7 @@ nav:
           - coding/frontend/index.md
           - coding/frontend/javascript.md
           - coding/frontend/css.md
+          - coding/frontend/react.md
       - coding/zsh.md
       - coding/vim.md
       - coding/volta.md
