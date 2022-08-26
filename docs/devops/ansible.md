@@ -11,7 +11,7 @@ ansible-playbook -i .git/tmp/hosts playbook.yml --vault-password-file=.git/tmp/p
 ## Execute commands to multiple hosts
 
 ```bash
-ansible -i inventory/hosts all -m debug -a 'msg="{{ansible_ssh_host}}"'
+ansible -i inventory/hosts all -m debug -a 'msg="{{ansible_ssh_host}}"' -u jiangyuanji01 --ask-pass --ask-become-pass --become --become-user=root
 ```
 
 ## Execute commands locally
