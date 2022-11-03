@@ -10,30 +10,34 @@ You can find the official documentation of Cloudflare Pages from [here](https://
 
 - Build configurations
 
-| Name:                   | Value                                                                       |
-| ----------------------- | --------------------------------------------------------------------------- |
-| Build command:          | `git fetch --unshallow && git config core.quotePath false && hugo --minify` |
-| Build output directory: | /public                                                                     |
-| Root directory:         | /                                                                           |
+| Name:                   | Value                                                                     |
+| ----------------------- | ------------------------------------------------------------------------- |
+| Build command:          | git fetch --unshallow && git config core.quotePath false && hugo --minify |
+| Build output directory: | /public                                                                   |
+| Root directory:         | /                                                                         |
 
-!!! warning "Using a specific Hugo version"
+:::caution Using a specific Hugo version
 
-    The default version of hugo seems too old, set a specific version by using `HUGO_VERSION`
-    For example: `HUGO_VERSION`: `0.92.2`
+The default version of hugo seems too old, set a specific version by using `HUGO_VERSION`
+For example: `HUGO_VERSION`: `0.92.2`
 
-### Deploy a MkDocs site
+:::
+
+### Deploy a Docusaurus site
 
 - Build configurations
 
-| Name:                   | Value          |
-| ----------------------- | -------------- |
-| Build command:          | `mkdocs build` |
-| Build output directory: | /site          |
-| Root directory:         | /              |
+| Name:                   | Value                                                                     |
+| ----------------------- | ------------------------------------------------------------------------- |
+| Build command:          | git fetch --unshallow && git config core.quotePath false && npm run build |
+| Build output directory: | /build                                                                    |
+| Root directory:         | /                                                                         |
 
-!!! warning "Using a specific Python version"
+:::caution Using a specific Node.js version
 
-    The default version of Python seems too old, set a specific version by using `PYTHON_VERSION`
-    For example: `PYTHON_VERSION`: `3.7`, as of Feb 26, 2022, the latest version supported by Cloudflare Pages is Python 3.7.
+The default version of Node.js seems too old, set a specific version by using `NODE_VERSION`
+For example: `NODE_VERSION`: `16`.
 
-    You can find more information about Python version from [here](https://developers.cloudflare.com/pages/framework-guides/deploy-a-sphinx-site/#prerequisites).
+You can find more information about Python version from [here](https://developers.cloudflare.com/pages/framework-guides/deploy-a-sphinx-site/#prerequisites).
+
+:::

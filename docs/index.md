@@ -7,7 +7,7 @@ sidebar_label: Welcome
 
 This's my personal wiki where I share what I know. It's powered by [Docusaurus 2](https://docusaurus.io/).
 
-I deploy this website on [Cloudflare Pages](sysadmin/cloudflare.md#deploy-a-mkdocs-site).
+I deploy this website on [Cloudflare Pages](sysadmin/cloudflare.md#deploy-a-docusaurus-site).
 
 ### Installation
 
