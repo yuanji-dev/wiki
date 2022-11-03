@@ -1,34 +1,41 @@
-# Welcome to Yuanji's wiki
+# Website
 
-This's my personal wiki where I share what I know. It's powered by [MkDocs](https://www.mkdocs.org/) with [Material theme](https://squidfunk.github.io/mkdocs-material/).
+This website is built using [Docusaurus 2](https://docusaurus.io/), a modern static website generator.
 
-I deploy this website on [Cloudflare Pages](sysadmin/cloudflare.md#deploy-a-mkdocs-site).
+### Installation
 
-## Configurations
-
-You can find all configurations in `mkdocs.yml`, to enable YAML schema validation add the following line at the top of it.
-
-```yaml
-# yaml-language-server: $schema=https://squidfunk.github.io/mkdocs-material/schema.json
+```
+$ yarn
 ```
 
-## Run locally
+### Local Development
 
-- Clone repository & install dependencies
-
-```bash
-git clone https://github.com/masakichi/wiki.git
-cd wiki
-python -m venv venv
-source venv/bin/activate
-pip install -r requirements.txt
-pre-commit install #(1)
+```
+$ yarn start
 ```
 
-1.  It will setup [pre-commit hooks](coding/git.md#pre-commit)
+This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
 
-- Launch development server
+### Build
 
-```bash
-mkdocs serve
 ```
+$ yarn build
+```
+
+This command generates static content into the `build` directory and can be served using any static contents hosting service.
+
+### Deployment
+
+Using SSH:
+
+```
+$ USE_SSH=true yarn deploy
+```
+
+Not using SSH:
+
+```
+$ GIT_USER=<Your GitHub username> yarn deploy
+```
+
+If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
