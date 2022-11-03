@@ -1,3 +1,8 @@
+---
+sidebar_position: 6
+sidebar_label: Resource
+---
+
 ## General developer tools
 
 - [CyberChef](https://gchq.github.io/CyberChef/)
