@@ -1,5 +1,10 @@
 # Kubernetes
 
+```mdx-code-block
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+```
+
 ## kubectl
 
 ### One command to create pod and service
@@ -16,17 +21,22 @@ kubectl run busybox --image=busybox --restart=Never --rm -it -- /bin/sh
 
 ### Create manifests
 
-===! "Deployment"
+<Tabs>
+  <TabItem value="Deployment" default>
 
-    ```bash
-    kubectl create deployment whoami --image=traefik/whoami -o yaml --dry-run=client
-    ```
+```bash
+kubectl create deployment whoami --image=traefik/whoami -o yaml --dry-run=client
+```
 
-=== "Service"
+  </TabItem>
+  <TabItem value="Service">
 
-    ```bash
-    kubectl create service clusterip whoami --tcp=80:80 -o yaml --dry-run=client
-    ```
+```bash
+kubectl create service clusterip whoami --tcp=80:80 -o yaml --dry-run=client
+```
+
+  </TabItem>
+</Tabs>
 
 ## Kubernetes JSON schemas
 

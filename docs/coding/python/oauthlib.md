@@ -1,5 +1,10 @@
 # OAuthLib
 
+```mdx-code-block
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+```
+
 > OAuthLib - Python Framework for OAuth1 & OAuth2
 >
 > A generic, spec-compliant, thorough implementation of the OAuth request-signing logic
@@ -10,51 +15,56 @@
 
 You might be more interested in using [requests](https://github.com/psf/requests) which has OAuthLib powered OAuth support provided by the [requests-oauthlib](https://github.com/requests/requests-oauthlib) library.
 
-===! "Client Credentials Grant"
+<Tabs>
+  <TabItem value="Client Credentials Grant" default>
 
-    ```python
-    from oauthlib.oauth2 import BackendApplicationClient
-    from requests_oauthlib import OAuth2Session
+```python
+from oauthlib.oauth2 import BackendApplicationClient
+from requests_oauthlib import OAuth2Session
 
-    session = OAuth2Session(
-        client=BackendApplicationClient(client_id=CLIENT_ID),
-        auto_refresh_url=TOKEN_URL,
-        auto_refresh_kwargs={
-            "client_id": CLIENT_ID,
-            "client_secret": CLIENT_SECRET,
-        },
-        token_updater=lambda t: t,
-    )
-    session.fetch_token(
-        token_url=TOKEN_URL,
-        client_secret=CLIENT_SECRET,
-        include_client_id=True,
-    )
-    ```
+session = OAuth2Session(
+    client=BackendApplicationClient(client_id=CLIENT_ID),
+    auto_refresh_url=TOKEN_URL,
+    auto_refresh_kwargs={
+        "client_id": CLIENT_ID,
+        "client_secret": CLIENT_SECRET,
+    },
+    token_updater=lambda t: t,
+)
+session.fetch_token(
+    token_url=TOKEN_URL,
+    client_secret=CLIENT_SECRET,
+    include_client_id=True,
+)
+```
 
-=== "Password Credentials Grant"
+  </TabItem>
+  <TabItem value="Password Credentials Grant">
 
-    ```python
-    from oauthlib.oauth2 import LegacyApplicationClient
-    from requests_oauthlib import OAuth2Session
+```python
+from oauthlib.oauth2 import LegacyApplicationClient
+from requests_oauthlib import OAuth2Session
 
-    session = OAuth2Session(
-        client=LegacyApplicationClient(client_id=CLIENT_ID),
-        auto_refresh_url=TOKEN_URL,
-        auto_refresh_kwargs={
-            "client_id": CLIENT_ID,
-            "username": USERNAME,
-            "password": PASSWORD,
-        },
-        token_updater=lambda t: t,
-    )
-    session.fetch_token(
-        token_url=TOKEN_URL,
-        username=USERNAME,
-        password=PASSWORD,
-        include_client_id=True,
-    )
-    ```
+session = OAuth2Session(
+    client=LegacyApplicationClient(client_id=CLIENT_ID),
+    auto_refresh_url=TOKEN_URL,
+    auto_refresh_kwargs={
+        "client_id": CLIENT_ID,
+        "username": USERNAME,
+        "password": PASSWORD,
+    },
+    token_updater=lambda t: t,
+)
+session.fetch_token(
+    token_url=TOKEN_URL,
+    username=USERNAME,
+    password=PASSWORD,
+    include_client_id=True,
+)
+```
+
+  </TabItem>
+</Tabs>
 
 ## Links
 

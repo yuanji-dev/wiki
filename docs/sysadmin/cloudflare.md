@@ -1,4 +1,4 @@
-## Cloudflare
+# Cloudflare
 
 I use [Cloudflare DNS](https://www.cloudflare.com/dns/) for my domain names, and use [Cloudflare Pages](https://pages.cloudflare.com/) to deploy my [blog](https://blog.gimo.me) and this wiki site.
 

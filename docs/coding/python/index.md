@@ -1,5 +1,10 @@
 # Python
 
+```mdx-code-block
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+```
+
 ## Packaging
 
 See [Poetry](poetry.md) for more information.
@@ -35,23 +40,28 @@ def test_create_deployment_with_conflicting_deleted_deployment_name(mock_get_exi
 
 - Patch builtins.open
 
-===! "Context Manager"
+<Tabs>
+  <TabItem value="Context Manager" default>
 
-    ```python
-    from unittest.mock import patch, mock_open
-    with patch("builtins.open", mock_open(read_data="data")) as mock_file:
-        assert open("path/to/open").read() == "data"
+```python
+from unittest.mock import patch, mock_open
+with patch("builtins.open", mock_open(read_data="data")) as mock_file:
+    assert open("path/to/open").read() == "data"
+mock_file.assert_called_with("path/to/open")
+```
+
+  </TabItem>
+  <TabItem value="Decorator">
+
+```python
+@patch("builtins.open", new_callable=mock_open, read_data="data")
+def test_patch(mock_file):
+    assert open("path/to/open").read() == "data"
     mock_file.assert_called_with("path/to/open")
-    ```
+```
 
-=== "Decorator"
-
-    ```python
-    @patch("builtins.open", new_callable=mock_open, read_data="data")
-    def test_patch(mock_file):
-        assert open("path/to/open").read() == "data"
-        mock_file.assert_called_with("path/to/open")
-    ```
+  </TabItem>
+</Tabs>
 
 Ref: [mocking - How do I mock an open used in a with statement (using the Mock framework in Python)? - Stack Overflow](https://stackoverflow.com/questions/1289894/how-do-i-mock-an-open-used-in-a-with-statement-using-the-mock-framework-in-pyth)
 

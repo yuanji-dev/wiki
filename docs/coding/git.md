@@ -1,5 +1,8 @@
 # Git
 
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+
 ## Commit messages
 
 ```bash
@@ -15,85 +18,92 @@ echo '{ "path": "cz-conventional-changelog" }' > ~/.czrc
 
 ## Global configuration & ignore
 
-=== "Global configuration"
+<Tabs>
+  <TabItem value="Global configuration" default>
 
-    ```ini title="~/.config/git/config"
-    [user]
-        name = Yuanji
-        email = self@gimo.me
-        signingkey = 3CB6EA7C55827AAD
+```ini title="~/.config/git/config"
+[user]
+    name = Yuanji
+    email = self@gimo.me
+    signingkey = 3CB6EA7C55827AAD
 
-    [core]
-        quotepath = false
-        pager = delta
+[core]
+    quotepath = false
+    pager = delta
 
-    [interactive]
-        diffFilter = delta --color-only
+[interactive]
+    diffFilter = delta --color-only
 
-    [delta]
-        navigate = true
+[delta]
+    navigate = true
 
-    [merge]
-        conflictstyle = diff3
+[merge]
+    conflictstyle = diff3
 
-    [diff]
-        colorMoved = default
+[diff]
+    colorMoved = default
 
-    [commit]
-        gpgsign = true
+[commit]
+    gpgsign = true
 
-    [init]
-        defaultBranch = main
-    ```
+[init]
+    defaultBranch = main
+```
 
-=== "Global ignore"
+  </TabItem>
+  <TabItem value="Global ignore">
 
-    ```ini title="~/.config/git/ignore"
-    # Compiled source #
-    ###################
-    *.com
-    *.class
-    *.dll
-    *.exe
-    *.o
-    *.so
+```ini title="~/.config/git/ignore"
+# Compiled source #
+###################
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
 
-    # Packages #
-    ############
-    # it's better to unpack these files and commit the raw source
-    # git has its own built in compression methods
-    *.7z
-    *.dmg
-    *.gz
-    *.iso
-    *.jar
-    *.rar
-    *.tar
-    *.zip
+# Packages #
+############
+# it's better to unpack these files and commit the raw source
+# git has its own built in compression methods
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
 
-    # Logs and databases #
-    ######################
-    *.log
-    *.sql
-    *.sqlite
+# Logs and databases #
+######################
+*.log
+*.sql
+*.sqlite
 
-    # OS generated files #
-    ######################
-    .DS_Store
-    .DS_Store?
-    ._*
-    .Spotlight-V100
-    .Trashes
-    ehthumbs.db
-    Thumbs.db
-    ```
+# OS generated files #
+######################
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+```
 
-!!! Tip "Nice to have"
+  </TabItem>
+</Tabs>
 
-    - Pager: [dandavison/delta: A syntax-highlighting pager for git, diff, and grep output](https://github.com/dandavison/delta)
-    - .gitignore template: [gitignore.io](https://github.com/toptal/gitignore.io)
+:::tip Nice to have
+
+- Pager: [dandavison/delta: A syntax-highlighting pager for git, diff, and grep output](https://github.com/dandavison/delta)
+- .gitignore template: [gitignore.io](https://github.com/toptal/gitignore.io)
 
 See also: [dotfiles/git/.config/git at main · masakichi/dotfiles](https://github.com/masakichi/dotfiles/tree/main/git/.config/git)
+
+:::
 
 ## Project wise configuration
 
@@ -137,23 +147,29 @@ For more information see: https://pre-commit.com/
 
 ### Installation
 
-=== ":material-arch: Arch Linux"
+<Tabs>
+  <TabItem value="Arch Linux" default>
 
-    ```bash
-    sudo pacman -S python-pre-commit
-    ```
+```bash
+sudo pacman -S python-pre-commit
+```
 
-=== ":material-apple: macOS"
+  </TabItem>
+  <TabItem value="macOS">
 
-    ```bash
-    brew install pre-commit
-    ```
+```bash
+brew install pre-commit
+```
 
-=== ":material-language-python: Python"
+  </TabItem>
+  <TabItem value="Python">
 
-    ```bash
-    pip install pre-commit
-    ```
+```bash
+pip install pre-commit
+```
+
+  </TabItem>
+</Tabs>
 
 ### Current repository's configuration
 

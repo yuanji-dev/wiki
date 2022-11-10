@@ -1,20 +1,30 @@
 # Vim
 
+```mdx-code-block
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+```
+
 Due to I use [Neovim](https://neovim.io/) now, the term `Vim` in this article refers to Neovim.
 
 ## Installation
 
-=== ":material-arch: Arch Linux"
+<Tabs>
+  <TabItem value="Arch Linux" default>
 
-    ```bash
-    sudo pacman -S neovim
-    ```
+```bash
+sudo pacman -S neovim
+```
 
-=== ":material-apple: macOS"
+  </TabItem>
+  <TabItem value="macOS">
 
-    ```bash
-    brew install neovim
-    ```
+```bash
+brew install neovim
+```
+
+  </TabItem>
+</Tabs>
 
 ## Configurations
 
@@ -28,9 +38,11 @@ My own configurations: [dotfiles/nvim/.config/nvim at main · masakichi/dotfiles
 # yaml-language-server: $schema=<urlToTheSchema>
 ```
 
-!!! Tip "JSON Schema Store"
+:::tip JSON Schema Store
 
-    Find all available schemas from [JSON Schema Store](https://www.schemastore.org/json/)
+Find all available schemas from [JSON Schema Store](https://www.schemastore.org/json/)
+
+:::
 
 ## Plugins
 
