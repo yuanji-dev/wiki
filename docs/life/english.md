@@ -11,10 +11,14 @@
 | September 6, 2019         | 6 September 2019 / the 6th of September, 2019           |
 | Monday, September 6, 2019 | Monday, 6 Sept 2019 / Monday the 6th of September, 2019 |
 
-??? summary "Summary Chart"
+<details>
+  <summary>Summary Chart</summary>
 
-    ![Date in Englin](date-in-english.jpg)
-    Ref: [How to say the DATE in English Woodward English](https://www.woodwardenglish.com/lesson/how-to-say-the-date-in-english/)
+![Date in Englin](date-in-english.jpg)
+
+Ref: [How to say the DATE in English Woodward English](https://www.woodwardenglish.com/lesson/how-to-say-the-date-in-english/)
+
+</details>
 
 See also:
 
