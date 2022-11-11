@@ -3,7 +3,7 @@ sidebar_position: 1
 sidebar_label: Welcome
 ---
 
-# Welcome to Yuanji's wiki
+# Welcome to Yuanji's Wiki
 
 This's my personal wiki where I share what I know. It's powered by [Docusaurus 2](https://docusaurus.io/).
 

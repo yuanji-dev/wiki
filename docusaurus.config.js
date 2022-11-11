@@ -33,12 +33,11 @@ const config = {
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
         docs: {
-          routeBasePath: '/',
+          routeBasePath: "/",
           sidebarPath: require.resolve("./sidebars.js"),
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl:
-            "https://github.com/masakichi/wiki/tree/main/",
+          editUrl: "https://github.com/masakichi/wiki/tree/main/",
           showLastUpdateTime: true,
         },
         theme: {
@@ -74,44 +73,25 @@ const config = {
       footer: {
         style: "dark",
         links: [
-          // {
-          //   title: "Docs",
-          //   items: [
-          //     {
-          //       label: "Tutorial",
-          //       to: "/docs/intro",
-          //     },
-          //   ],
-          // },
           {
-            title: "Community",
-            items: [
-              {
-                label: "Stack Overflow",
-                href: "https://stackoverflow.com/questions/tagged/docusaurus",
-              },
-              {
-                label: "Discord",
-                href: "https://discordapp.com/invite/docusaurus",
-              },
-              {
-                label: "Twitter",
-                href: "https://twitter.com/docusaurus",
-              },
-            ],
+            label: "Blog",
+            href: "https://blog.gimo.me",
           },
           {
-            title: "More",
-            items: [
-              {
-                label: "Blog",
-                href: "https://blog.gimo.me",
-              },
-              {
-                label: "GitHub",
-                href: "https://github.com/masakichi",
-              },
-            ],
+            label: "Douban",
+            href: "https://www.douban.com/people/masakichi",
+          },
+          {
+            label: "Twitter",
+            href: "https://twitter.com/gimo_me",
+          },
+          {
+            label: "Telegram",
+            href: "https://t.me/yuanji",
+          },
+          {
+            label: "Email",
+            href: "mailto:self@gimo.me",
           },
         ],
         copyright: `Copyright © ${new Date().getFullYear()} Yuanji All Rights Resarved.`,
