@@ -7,7 +7,7 @@ const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: "Yuanji's Wiki",
-  tagline: "Dinosaurs are cool",
+  tagline: "Yuanji's Personal Wiki",
   url: "https://yuanji.dev",
   baseUrl: "/",
   onBrokenLinks: "throw",
@@ -59,14 +59,20 @@ const config = {
         items: [
           // {
           //   type: "doc",
-          //   docId: "resource",
+          //   docId: "index",
           //   position: "left",
-          //   label: "Tutorial",
+          //   label: "Home",
           // },
           {
-            href: "https://github.com/masakichi/wiki",
-            label: "GitHub",
+            href: "https://blog.gimo.me",
+            label: "博客",
             position: "right",
+          },
+          {
+            href: "https://github.com/facebook/docusaurus",
+            position: "right",
+            className: "header-github-link",
+            "aria-label": "GitHub repository",
           },
         ],
       },
