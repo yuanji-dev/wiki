@@ -53,20 +53,41 @@ const config = {
       navbar: {
         title: "Yuanji's Wiki",
         logo: {
-          alt: "Yuanji's Wiki Logo",
+          alt: "Yuanji's Wiki",
           src: "img/logo.svg",
+          srcDark: "img/logo_dark.svg",
         },
         items: [
-          // {
-          //   type: "doc",
-          //   docId: "index",
-          //   position: "left",
-          //   label: "Home",
-          // },
+          {
+            to: "/coding",
+            position: "left",
+            label: "Coding",
+          },
+          {
+            to: "/devops",
+            position: "left",
+            label: "DevOps",
+          },
+          {
+            to: "/sysadmin",
+            position: "left",
+            label: "Sysadmin",
+          },
+          {
+            to: "/life",
+            position: "left",
+            label: "Life",
+          },
           {
             href: "https://blog.gimo.me",
             label: "博客",
             position: "right",
+          },
+          {
+            href: "https://t.me/yuanji",
+            position: "right",
+            className: "header-telegram-link",
+            "aria-label": "Telegram",
           },
           {
             href: "https://github.com/facebook/docusaurus",

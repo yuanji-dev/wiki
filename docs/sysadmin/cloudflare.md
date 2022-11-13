@@ -38,6 +38,4 @@ For example: `HUGO_VERSION`: `0.92.2`
 The default version of Node.js seems too old, set a specific version by using `NODE_VERSION`
 For example: `NODE_VERSION`: `16`.
 
-You can find more information about Python version from [here](https://developers.cloudflare.com/pages/framework-guides/deploy-a-sphinx-site/#prerequisites).
-
 :::
