@@ -95,7 +95,7 @@ const config = {
             "aria-label": "Telegram",
           },
           {
-            href: "https://github.com/facebook/docusaurus",
+            href: "https://github.com/masakichi/wiki",
             position: "right",
             className: "header-github-link",
             "aria-label": "GitHub repository",
