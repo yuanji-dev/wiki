@@ -65,7 +65,8 @@ I use [packer.nvim](https://github.com/wbthomason/packer.nvim) to manage all plu
 ### LSP
 
 - [neovim/nvim-lspconfig: Quickstart configurations for the Nvim LSP client](https://github.com/neovim/nvim-lspconfig)
-- [williamboman/nvim-lsp-installer: Neovim plugin that allows you to seamlessly manage LSP servers with :LspInstall. With full Windows support!](https://github.com/williamboman/nvim-lsp-installer)
+- [williamboman/mason.nvim: Portable package manager for Neovim that runs everywhere Neovim runs. Easily install and manage LSP servers, DAP servers, linters, and formatters.](https://github.com/williamboman/mason.nvim)
+- [williamboman/mason-lspconfig.nvim: Extension to mason.nvim that makes it easier to use lspconfig with mason.nvim. Strongly recommended for Windows users.](https://github.com/williamboman/mason-lspconfig.nvim)
 - [jose-elias-alvarez/null-ls.nvim: Use Neovim as a language server to inject LSP diagnostics, code actions, and more via Lua.](https://github.com/jose-elias-alvarez/null-ls.nvim)
 - [onsails/lspkind-nvim: vscode-like pictograms for neovim lsp completion items](https://github.com/onsails/lspkind-nvim)
 
