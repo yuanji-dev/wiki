@@ -1,11 +1,11 @@
 position: 2 # float position is supported
-label: "Coding"
+label: "Programming"
 collapsible: true # make the category collapsible
 collapsed: true # keep the category closed by default
 #className: red
 link:
   type: generated-index
-  title: Coding
-  slug: /coding
+  title: Programming
+  slug: /programming
 #customProps:
 #  description: This description can be used in the swizzled DocCard

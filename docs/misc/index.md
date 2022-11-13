@@ -1,7 +1,10 @@
----
-sidebar_position: 6
-sidebar_label: Resource
----
+# Misc
+
+```mdx-code-block
+import DocCardList from '@theme/DocCardList';
+
+<DocCardList />
+```
 
 ## General developer tools
 

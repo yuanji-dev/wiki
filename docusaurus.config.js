@@ -59,14 +59,9 @@ const config = {
         },
         items: [
           {
-            to: "/coding",
+            to: "/programming",
             position: "left",
-            label: "Coding",
-          },
-          {
-            to: "/devops",
-            position: "left",
-            label: "DevOps",
+            label: "Programming",
           },
           {
             to: "/sysadmin",
@@ -74,9 +69,19 @@ const config = {
             label: "Sysadmin",
           },
           {
-            to: "/life",
+            to: "/tools",
             position: "left",
-            label: "Life",
+            label: "Tools",
+          },
+          {
+            to: "/services",
+            position: "left",
+            label: "Services",
+          },
+          {
+            to: "/misc",
+            position: "left",
+            label: "Misc",
           },
           {
             href: "https://blog.gimo.me",
