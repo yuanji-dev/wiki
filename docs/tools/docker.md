@@ -64,3 +64,16 @@ Ref: [How to remove old and unused Docker images - Stack Overflow](https://stack
 > ```
 
 Ref: [How to access host port from docker container - Stack Overflow](https://stackoverflow.com/questions/31324981/how-to-access-host-port-from-docker-container)
+
+## Pull docker image via proxy
+
+```
+sudo systemctl edit docker
+[Service]
+Environment="HTTP_PROXY=http://proxy.example.com:80/"
+Environment="HTTPS_PROXY=http://proxy.example.com:80/"
+
+sudo systemctl restart docker
+```
+
+Ref: [Cannot download Docker images behind a proxy - Stack Overflow](https://stackoverflow.com/questions/23111631/cannot-download-docker-images-behind-a-proxy)
